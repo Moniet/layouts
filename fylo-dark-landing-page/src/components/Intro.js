@@ -3,6 +3,7 @@ import { jsx, css } from '@emotion/core'
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
+import H1 from './H1'
 
 const Container = styled.div`
     position: relative;
@@ -26,30 +27,21 @@ const IMG = styled.img`
     max-width: 100%;
 `
 
-const H1 = styled.h1`
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 1em 0 0.5em 0;
-    color: white;
-`
-
 const P = styled.p`
     font-size: 1.25em;
     font-weight: 300;
     line-height: 1.5;
     color: white;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 2em auto;
     width: 75%;
 `
 
 const Button = styled.button`
-    width: 35%;
-    padding: 1.5em;
+    width: 30%;
+    padding: 1em;
     border: none;
     border-radius: 50px;
+    font-size: 1em;
     font-weight: 700;
     color: white;
     background: ${colors.btnGradient};

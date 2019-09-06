@@ -4,6 +4,10 @@ import Link from '../components/Link'
 import Brand from '../components/Brand'
 import { colors } from '../utils/theme'
 
+const Header = styled.header`
+    width: 100vw;
+`
+
 const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
@@ -22,7 +26,7 @@ const ListItem = styled.li`
 `
 
 export default () => (
-    <header>
+    <Header>
         <Nav>
             <Brand />
             <List>
@@ -37,5 +41,5 @@ export default () => (
                 </ListItem>
             </List>
         </Nav>
-    </header>
+    </Header>
 )

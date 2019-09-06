@@ -12,6 +12,7 @@ const btn = css`
     font-size: 14px;
     color: white;
     background: ${colors.btnGradient};
+    cursor: pointer;
 `
 
 const Button = ({ children }) => (
