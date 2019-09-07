@@ -5,7 +5,7 @@ const H1 = styled.h1`
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1.25;
-    margin: 1em 0 0.5em 0;
+    margin-bottom: 0.5em;
     color: white;
 `
 

@@ -7,6 +7,8 @@ import Intro from './components/Intro'
 import InfoGrid from './components/InfoGrid'
 import Insight from './components/Insight';
 import Testimonials from './components/Testimonials';
+import SignUp from './components/SignUp';
+import Footer from './components/Footer';
 
 const Container = styled.div`
   position: relative;
@@ -39,6 +41,8 @@ const App = () => (
       <InfoGrid />
       <Insight />
       <Testimonials />
+      <SignUp />
+      <Footer />
     </Container>
   </>
 )
