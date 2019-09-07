@@ -6,7 +6,7 @@ const Para = styled.p`
     font-weight: 300;
     line-height: 1.5;
     color: white;
-    ${'' /* margin: 0 auto 2em auto; */}
+    margin-bottom: 1em;
 `
 
 export default ({ children }) => 

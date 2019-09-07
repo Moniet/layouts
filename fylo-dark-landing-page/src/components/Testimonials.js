@@ -3,11 +3,28 @@ import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 import Grid from './Grid'
 import Para from './Para'
+import quotes from '../images/bg-quotes.png'
 
 const Container = styled.div`
+    position: relative;
     width: 90%;
     margin-top: 20vh;
     font-size: 14px;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-image: url(${require('../images/bg-quotes.png')});
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        transform: translate(-15%, -65%);
+        z-index: 0;
+    }
 `
 
 const Card = styled.div`
@@ -18,6 +35,7 @@ const Card = styled.div`
     background: ${colors.bgCard};
     width: calc(33% - 1em);
     ${'' /* box-shadow: 5px 5px rgba(255,255,255,0.1); */}
+    z-index: 10;
 `
 
 const Profile = styled.div`
