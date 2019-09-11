@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 import Brand from './Brand'
 import Link from './Link'
+import { mq } from '../utils/responsive'
 
 const Footer = styled.footer`
     display: flex;
@@ -14,6 +15,11 @@ const Footer = styled.footer`
 
     & > img {
         margin-bottom: 3em;
+        min-width: 150px;
+    }
+
+    ${mq[0]} {
+        padding: 15em 2em 2em;
     }
 `
 
@@ -21,6 +27,10 @@ const Flex = styled.div`
     display: flex;
     flex-flow: row nowrap;
     justify-content: ${props => props.between ? 'space-between' : 'center'};
+
+    ${mq[0]} {
+        flex-flow: ${props => props.between ? 'column nowrap' : 'row nowrap'};
+    }
 `
 
 const Column = styled.div`
@@ -37,11 +47,15 @@ const Icon = styled.div`
 
 const List = styled.ul`
     margin-right: 2em;
+    ${mq[0]} { margin-bottom: 2em; }
 `
 
 const ListItem = styled.li`
     color: white;
     margin-bottom: 1em;
+    ${mq[0]} {
+        margin-bottom: 1.25em;
+    }
 `
 
 const IMG = styled.img`
@@ -55,6 +69,10 @@ const Location = styled.div`
     p {
         line-height: 1.5em;
         margin-top: -0.25em;
+    }
+
+    ${mq[0]} {
+        margin-bottom: 1.25em;
     }
 `
 
