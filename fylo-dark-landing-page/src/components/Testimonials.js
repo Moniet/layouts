@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 import Grid from './Grid'
 import Para from './Para'
-import quotes from '../images/bg-quotes.png'
+import { mq } from '../utils/responsive'
 
 const Container = styled.div`
     position: relative;
@@ -24,6 +24,11 @@ const Container = styled.div`
         left: 0;
         transform: translate(-15%, -65%);
         z-index: 0;
+        ${mq[0]} {
+            width: 30px;
+            height: 30px;
+            transform: translate(25%, -65%);
+        }
     }
 `
 
@@ -36,6 +41,12 @@ const Card = styled.div`
     width: calc(33% - 1em);
     ${'' /* box-shadow: 5px 5px rgba(255,255,255,0.1); */}
     z-index: 10;
+
+    ${mq[0]} {
+        width: 100%;
+        margin-bottom: 2em;
+        padding: 2em 1.5em;
+    }
 `
 
 const Profile = styled.div`
@@ -55,6 +66,10 @@ const Profile = styled.div`
     p {
         font-weight: 100;
         font-size: 0.75em;
+    }
+
+    ${mq[0]} {
+        margin-top: 0.5em;
     }
 `
 
