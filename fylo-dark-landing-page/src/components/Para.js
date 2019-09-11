@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { mq } from '../utils/responsive'
 
 const Para = styled.p`
     font-size: 1.25em;
@@ -7,6 +8,9 @@ const Para = styled.p`
     line-height: 1.5;
     color: white;
     margin-bottom: 1em;
+    ${mq[0]} {
+        font-size: 1em;
+    }
 `
 
 export default ({ children }) => 

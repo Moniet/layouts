@@ -3,24 +3,36 @@ import styled from '@emotion/styled'
 import Grid from './Grid'
 import H1 from './H1'
 import Para from './Para'
+import { mq } from '../utils/responsive'
 
 const Container = styled.div`
     width: 90%;
+    ${mq[0]} {
+        width: 80%;
+    }
 `
 const IMG = styled.img`
     width: 100%;
 `
 const Info = styled.div`
-    ${'' /* display: flex;
-    flex-direction: column; */}
     width: 50%;
+    ${mq[0]} {
+        width: 100%;
+    }
 `
 const InfoHeader = styled.div`
     width: 55%;
+    ${mq[0]} {
+        width: 100%;
+    }
 `
 const Art = styled.div`
     width: 50%;
     padding-right: 10vh;
+    ${mq[0]} {
+        width: 100%;
+        margin-bottom: 3em;
+    }
 `
 
 const Link = styled.a`
