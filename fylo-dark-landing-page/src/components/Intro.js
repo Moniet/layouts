@@ -3,7 +3,9 @@ import { jsx, css } from '@emotion/core'
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
+import { mq } from '../utils/responsive'
 import H1 from './H1'
+
 
 const Container = styled.div`
     position: relative;
@@ -20,6 +22,11 @@ const InfoContainer = styled.div`
     width: 50%;
     text-align: center;
     z-index: 10;
+
+    ${mq[0]} { 
+        width: 85%; 
+        margin-bottom: -70%;
+    }
 `
 
 const Illustration = styled.img`
@@ -35,6 +42,10 @@ const P = styled.p`
     color: white;
     margin: 0 auto 2em auto;
     width: 75%;
+    ${mq[0]} {
+        font-size: 1em;
+        width: 100%;
+    }
 `
 
 const Button = styled.button`
@@ -46,6 +57,10 @@ const Button = styled.button`
     font-weight: 700;
     color: white;
     background: ${colors.btnGradient};
+
+    ${mq[0]} {
+        width: 80%;
+    }
 `
 
 const Decoration = styled.img`

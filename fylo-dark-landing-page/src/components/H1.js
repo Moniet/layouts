@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { mq } from '../utils/responsive'
 
 const H1 = styled.h1`
     font-size: 2.5em;
@@ -7,6 +8,9 @@ const H1 = styled.h1`
     line-height: 1.25;
     margin-bottom: 0.5em;
     color: white;
+    ${mq[0]} {
+        font-size: 1.75em;
+    }
 `
 
 export default ({ children }) =>  

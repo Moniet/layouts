@@ -3,12 +3,15 @@ import { jsx, css } from '@emotion/core'
 import React from 'react'
 import styled from '@emotion/styled'
 import Grid from './Grid'
-
+import { mq } from '../utils/responsive'
 
 const GridItem = styled.div`
     width: 40%;
     text-align: center;
     margin-bottom: 10vh;
+    ${mq[0]} {
+        width: 100%;
+    }
 `
 
 const H2 = styled.h2`
@@ -29,6 +32,9 @@ const Icon = styled.img`
 
 const Container = styled.div`
     width: 70%;
+    ${mq[0]} {
+        padding-top: 100%;
+    }
 `
 
 const InfoGrid = () => (
