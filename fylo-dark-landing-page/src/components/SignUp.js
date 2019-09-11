@@ -4,6 +4,7 @@ import Para from './Para'
 import H1 from './H1'
 import Button from './Button'
 import { colors } from '../utils/theme'
+import { mq } from '../utils/responsive'
 
 const Container = styled.div`
     display: flex;
@@ -18,6 +19,11 @@ const Container = styled.div`
     padding: 4em;
     transform: translateY(50%);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    ${mq[0]} {
+        width: calc(100% - 2em);
+        padding: 2em 1.5em;
+        margin-top: 0;
+    }
 `
 
 const Form = styled.form`
@@ -25,6 +31,9 @@ const Form = styled.form`
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
+    ${mq[0]} {
+        flex-flow: column wrap;
+    }
 
     input[type="text"] {
         padding: 1em 3em;
@@ -34,10 +43,19 @@ const Form = styled.form`
         border-radius: 20px;
         flex-basis: 3fr;
         width: 70%;
+        ${mq[0]} {
+            width: 100%;
+            padding: 1.5em 3em;
+        }
     }
 
     button {
         width: 30%;
+
+        ${mq[0]} {
+            width: 100%;
+            margin-top: 2em;
+        }
     }
 `
 

@@ -9,7 +9,7 @@ const Para = styled.p`
     color: white;
     margin-bottom: 1em;
     ${mq[0]} {
-        font-size: 1em;
+        font-size: 0.85em;
     }
 `
 
