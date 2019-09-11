@@ -34,6 +34,7 @@ const Container = styled.div`
     width: 70%;
     ${mq[0]} {
         padding-top: 100%;
+        width: 80%;
     }
 `
 

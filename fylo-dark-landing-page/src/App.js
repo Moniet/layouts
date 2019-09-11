@@ -32,6 +32,10 @@ const App = () => (
         p {
           color: white;
         }
+
+        a, button {
+          cursor: pointer;
+        }
       `}
     />
 

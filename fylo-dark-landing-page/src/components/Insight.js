@@ -23,6 +23,20 @@ const Art = styled.div`
     padding-right: 10vh;
 `
 
+const Link = styled.a`
+    position: relative;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px hsl(176, 68%, 64%);
+`
+
+const Arrow = styled.div`
+    display: inline-block;
+    width: 1em;
+    height: auto;
+    vertical-align: middle;
+`
+
 const Insight = () => (
     <Container>
         <Grid between>
@@ -35,6 +49,7 @@ const Insight = () => (
                 </InfoHeader>
                 <Para>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</Para>
                 <Para>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required. </Para>
+                <Link>See how Fylo works <Arrow><IMG src={require('../images/icon-arrow.svg')} alt=""/></Arrow></Link>
             </Info>
         </Grid>
     </Container>
