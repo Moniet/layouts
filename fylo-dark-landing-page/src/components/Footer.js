@@ -74,72 +74,62 @@ export default () => (
                 </Flex>
             </Location>
 
+            <List>
+                <Column>
+                    <ListItem>
+                        <Flex>
+                            <Icon>
+                                <IMG src={ require('../images/icon-phone.svg') } alt="" />
+                            </Icon>
+                            <p>+1-543-123-4567</p>
+                        </Flex>
+                    </ListItem>
 
-                <List>
-                    <Column>
-                        <ListItem>
-                            <Flex>
-                                <Icon>
-                                    <IMG src={ require('../images/icon-phone.svg') } alt="" />
-                                </Icon>
-                                <p>+1-543-123-4567</p>
-                            </Flex>
-                        </ListItem>
+                    <ListItem>
+                        <Flex>
+                            <Icon>
+                                <IMG src={ require('../images/icon-email.svg') } alt="" />
+                            </Icon>
+                            <Link href={ 'mailto: jane-dough@example.com' }>jane-dough@example.com</Link>
+                        </Flex>
+                    </ListItem>
+                </Column>
+            </List>
 
-                        <ListItem>
-                            <Flex>
-                                <Icon>
-                                    <IMG src={ require('../images/icon-email.svg') } alt="" />
-                                </Icon>
-                                <Link href={ 'mailto: jane-dough@example.com' }>jane-dough@example.com</Link>
-                            </Flex>
-                        </ListItem>
-                    </Column>
-                </List>
+            <List>
+                <Column>
+                    <ListItem><Link href="#">About Us</Link></ListItem>
+                    <ListItem><Link href="#">Jobs</Link></ListItem>
+                    <ListItem><Link href="#">Press</Link></ListItem>
+                    <ListItem><Link href="#">Blogs</Link></ListItem>
+                </Column>
+            </List>
 
+            <List>
+                <Column>
+                    <ListItem><Link href="#">Contact Us</Link></ListItem>
+                    <ListItem><Link href="#">Terms</Link></ListItem>
+                    <ListItem><Link href="#">Privacy</Link></ListItem>
+                </Column>
+            </List>
 
-
-                <List>
-                    <Column>
-                        <ListItem><Link href="#">About Us</Link></ListItem>
-                        <ListItem><Link href="#">Jobs</Link></ListItem>
-                        <ListItem><Link href="#">Press</Link></ListItem>
-                        <ListItem><Link href="#">Blogs</Link></ListItem>
-                    </Column>
-                </List>
-
-
-
-                <List>
-                    <Column>
-                        <ListItem><Link href="#">Contact Us</Link></ListItem>
-                        <ListItem><Link href="#">Terms</Link></ListItem>
-                        <ListItem><Link href="#">Privacy</Link></ListItem>
-                    </Column>
-                </List>
-
-
-
-                <Flex>
-                    <Icon>
-                        <Link href="#">
-                            <img src={ require('../images/icon-facebook.svg') } alt=""/>
-                        </Link>
-                    </Icon>
-
-                    <Icon>
-                        <Link href="#">
-                            <img src={ require('../images/icon-twitter.svg') } alt=""/>
-                        </Link>
-                    </Icon>
-
-                    <Icon>
-                        <Link href="#">
-                            <img src={ require('../images/icon-instagram.svg') } alt=""/>
-                        </Link>
-                    </Icon>
-                </Flex>
-
+            <Flex>
+                <Icon>
+                    <Link href="#">
+                        <img src={ require('../images/icon-facebook.svg') } alt=""/>
+                    </Link>
+                </Icon>
+                <Icon>
+                    <Link href="#">
+                        <img src={ require('../images/icon-twitter.svg') } alt=""/>
+                    </Link>
+                </Icon>
+                <Icon>
+                    <Link href="#">
+                        <img src={ require('../images/icon-instagram.svg') } alt=""/>
+                    </Link>
+                </Icon>
+            </Flex>
         </Flex>
     </Footer>
 )

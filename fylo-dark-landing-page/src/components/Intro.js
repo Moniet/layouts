@@ -22,9 +22,10 @@ const InfoContainer = styled.div`
     z-index: 10;
 `
 
-const IMG = styled.img`
+const Illustration = styled.img`
     width: 100%;
     max-width: 100%;
+    margin-bottom: 4em;
 `
 
 const P = styled.p`
@@ -47,7 +48,7 @@ const Button = styled.button`
     background: ${colors.btnGradient};
 `
 
-const Art = styled.img`
+const Decoration = styled.img`
     position: relative;
     margin-top: -18%;
     width: 100%;
@@ -57,12 +58,12 @@ const Art = styled.img`
 const Intro = () => (
     <Container>
         <InfoContainer>
-            <IMG src={ require('../images/illustration-intro.png') } />
+            <Illustration src={ require('../images/illustration-intro.png') } />
             <H1>All your files in one secure location, accessible anywhere. </H1>
             <P>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</P>
             <Button>Get Started</Button>
         </InfoContainer>
-        <Art src={require('../images/bg-curvy-desktop.svg') }/>
+        <Decoration src={require('../images/bg-curvy-desktop.svg') }/>
     </Container>
 )
 
