@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Moniet/fylo-dark.git/static/css/main.c5d2e969.chunk.css",
+    "main.js": "/Moniet/fylo-dark.git/static/js/main.55cd518a.chunk.js",
+    "main.js.map": "/Moniet/fylo-dark.git/static/js/main.55cd518a.chunk.js.map",
+    "runtime~main.js": "/Moniet/fylo-dark.git/static/js/runtime~main.806c8342.js",
+    "runtime~main.js.map": "/Moniet/fylo-dark.git/static/js/runtime~main.806c8342.js.map",
+    "static/js/2.fb404810.chunk.js": "/Moniet/fylo-dark.git/static/js/2.fb404810.chunk.js",
+    "static/js/2.fb404810.chunk.js.map": "/Moniet/fylo-dark.git/static/js/2.fb404810.chunk.js.map",
+    "index.html": "/Moniet/fylo-dark.git/index.html",
+    "precache-manifest.c5865480f94405328fe130fdcc0df482.js": "/Moniet/fylo-dark.git/precache-manifest.c5865480f94405328fe130fdcc0df482.js",
+    "service-worker.js": "/Moniet/fylo-dark.git/service-worker.js",
+    "static/css/main.c5d2e969.chunk.css.map": "/Moniet/fylo-dark.git/static/css/main.c5d2e969.chunk.css.map",
+    "static/media/bg-curvy-desktop.svg": "/Moniet/fylo-dark.git/static/media/bg-curvy-desktop.376a8b95.svg",
+    "static/media/icon-access-anywhere.svg": "/Moniet/fylo-dark.git/static/media/icon-access-anywhere.5f4b8b3e.svg",
+    "static/media/icon-any-file.svg": "/Moniet/fylo-dark.git/static/media/icon-any-file.aedb3ae0.svg",
+    "static/media/icon-arrow.svg": "/Moniet/fylo-dark.git/static/media/icon-arrow.794c5a48.svg",
+    "static/media/icon-collaboration.svg": "/Moniet/fylo-dark.git/static/media/icon-collaboration.ca8c71cf.svg",
+    "static/media/icon-email.svg": "/Moniet/fylo-dark.git/static/media/icon-email.c90d96c2.svg",
+    "static/media/icon-facebook.svg": "/Moniet/fylo-dark.git/static/media/icon-facebook.c096d116.svg",
+    "static/media/icon-instagram.svg": "/Moniet/fylo-dark.git/static/media/icon-instagram.662aa752.svg",
+    "static/media/icon-location.svg": "/Moniet/fylo-dark.git/static/media/icon-location.0f65814b.svg",
+    "static/media/icon-phone.svg": "/Moniet/fylo-dark.git/static/media/icon-phone.47e54a44.svg",
+    "static/media/icon-security.svg": "/Moniet/fylo-dark.git/static/media/icon-security.f5585378.svg",
+    "static/media/icon-twitter.svg": "/Moniet/fylo-dark.git/static/media/icon-twitter.05cd782a.svg",
+    "static/media/illustration-intro.png": "/Moniet/fylo-dark.git/static/media/illustration-intro.526544ae.png",
+    "static/media/illustration-stay-productive.png": "/Moniet/fylo-dark.git/static/media/illustration-stay-productive.99294b1f.png",
+    "static/media/logo.svg": "/Moniet/fylo-dark.git/static/media/logo.c71bf7bf.svg"
+  }
+}
